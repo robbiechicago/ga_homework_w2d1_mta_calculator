@@ -8,8 +8,16 @@
 <body>
   <h1>Rob's MTA Stops Calculator</h1>
   Hello.
-  <div>Select starting station: <select id="start-station"></select></div>
-  <div>Select end station: <select id="end-station"></select></div>
+  <div id="start-div">Select starting station: 
+    <select id="start-station">
+      <option value="" disabled selected>Select start station</option>
+    </select>
+  </div>
+  <div id="end-div">Select end station: 
+    <select id="end-station">
+      <option value="" disabled selected>Select end station</option>
+    </select>
+  </div>
   <div><button id="l-boom">Boomtimes</button> Your journey takes <span id="result">???</span> stops</div>
 </body>
 </html>
